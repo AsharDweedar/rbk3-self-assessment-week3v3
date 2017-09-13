@@ -1,4 +1,5 @@
 var FishTable = ({fishes}) => (
+	<script>console.log('inside fish table')</script>
   <table>
     <tbody>
       {fishes.map((fish) => (<FishTableRow fish={fish} />)  )}

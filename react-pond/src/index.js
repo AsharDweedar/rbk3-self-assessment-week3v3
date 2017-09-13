@@ -17,7 +17,7 @@ var fishData = [
     description: 'Why are these things so huge? THey\'re terrifying.'
   }
 ];
-
+console.log('inside index.js')
 ReactDOM.render(
   <FishTable fishes={fishData}/>,
   document.getElementById('app')
